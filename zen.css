@@ -1,0 +1,154 @@
+/* MAIN PIECES */
+body, html {
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+#css-zen-garden {
+	
+}
+
+.page-wrapper {
+
+}
+/* END MAIN PIECES */
+
+
+/* TYPOGRAPHY */
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+/* END TYPOGRAPHY */
+
+
+/* INTRO */
+header {
+	background: url(img/flower.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	margin-top: -20px;
+	padding: 25% 0 25% 0;
+	text-align: center;
+}
+
+.summary {
+	background-color: #FFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+	text-align: center;
+}
+/* END INTRO */
+
+
+/* PREAMBLE */
+.preamble {
+	background: url(img/beach.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+}
+
+#zen-preamble h3 {
+	text-align: center;
+}
+
+#zen-preamble p {
+	width: 75%;
+	margin:0 auto 0 auto;
+}
+/* END PREAMBLE */
+
+
+/* EXPLANATION */
+.explanation {
+	background-color: #FFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+}
+
+.explanation h3 {
+	text-align: center;
+}
+
+.explanation p {
+	margin:0 auto 0 auto;
+}
+/* END EXPLANATION */
+
+
+/* PARTICIPATION */
+.participation {
+	background: url(img/tree.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+}
+
+.participation h3 {
+	text-align: center;
+}
+
+.participation p {
+	width: 75%;
+	margin:0 auto 0 auto;
+}
+/* END PARTICIPATION */
+
+
+/* BENIFITS */
+.benefits {
+	background-color: #FFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+}
+
+.benefits h3 {
+	text-align: center;
+}
+
+.benefits p {
+	margin:0 auto 0 auto;
+}
+/* END BENIFITS */
+
+
+/* REQUIRMENTS */
+.requirements {
+	background: url(img/ocean.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+}
+
+.requirements h3 {
+	text-align: center;
+}
+
+.requirements p {
+	width: 75%;
+	margin:0 auto 0 auto;
+}
+/* END REQUIRMENTS */
+
+

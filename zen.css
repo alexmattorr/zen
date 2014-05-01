@@ -54,14 +54,21 @@ ul li {
 
 a:link {
 	text-decoration: none;
+	color: #F9B7FF;
+	transition: all .5s ease 0;
 }
 
 a:visited {
 	text-decoration: none;
+	color: #E0B0FF;
 }
 
 a:hover {
 	text-decoration: none;
+	color: #E6A9EC;
+	background-color: #EBDDE2;
+	padding: 4px;
+	transition: all .5s ease 0;
 }
 
 a:active {
@@ -209,7 +216,7 @@ header h2 {
 /* FOOTER */
 footer {
 	margin:0 auto 0 auto;
-	padding: 5%;
+	padding: 2%;
 	text-align: center;
 	width: 50%;
 }

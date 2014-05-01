@@ -150,5 +150,57 @@ header {
 	margin:0 auto 0 auto;
 }
 /* END REQUIRMENTS */
+footer {
+	background-color: #FFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+}
+
+footer h3 {
+	text-align: center;
+}
+
+footer p {
+	margin:0 auto 0 auto;
+}
+/* FOOTER */
+
+
+
+/* END FOOTER */
+
+
+/* SIDEBAR */
+.sidebar {
+	width: 100%;
+	margin:1%;
+}
+
+.design-selection {
+	width:30%;
+	float: left;
+	margin: 0 auto 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+.design-archives {
+	width:30%;
+	float: left;
+	margin:0 auto 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+.zen-resources {
+	width: 30%;
+	float: left;
+	margin:0 auto 0 auto;
+	padding:1%;
+	text-align: center;
+}
+
+
+/* END SIDEBAR */
 
 

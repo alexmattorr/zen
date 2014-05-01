@@ -168,8 +168,12 @@ footer p {
 
 
 /* END FOOTER */
-
-
+footer {
+	margin:0 auto 0 auto;
+	padding: 1%;
+	text-align: center;
+	width: 50%;
+}
 /* SIDEBAR */
 .sidebar {
 	width: 100%;
@@ -198,6 +202,17 @@ footer p {
 	margin:0 auto 0 auto;
 	padding:1%;
 	text-align: center;
+}
+
+.zen-resources ul {
+	text-decoration: none;
+	display:block;
+}
+
+.zen-resources ul li {
+	text-decoration: none;
+	display: block;
+
 }
 
 

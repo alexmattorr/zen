@@ -1,8 +1,11 @@
 /* MAIN PIECES */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
 body, html {
 	margin: 0;
 	padding: 0;
 	top: 0;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 #css-zen-garden {
@@ -17,17 +20,54 @@ body, html {
 
 /* TYPOGRAPHY */
 h1 {
-
+	font-size: 85px;
+	font-weight: bold;
 }
 
 h2 {
-
+	font-size: 35px;
+	font-weight: bold;
 }
 
 h3 {
+	font-size: 25px;
+	font-weight: bold;
+	padding: .5%;
+}
 
+p {
+	font-size: 14px;
+	padding: .5%;
 }
 /* END TYPOGRAPHY */
+
+
+/* LINKS & UL LI */
+ul {
+	text-decoration: none;
+}
+
+ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+/* END LINKS & UL LI */
 
 
 /* INTRO */
@@ -41,6 +81,11 @@ header {
 	margin-top: -20px;
 	padding: 25% 0 25% 0;
 	text-align: center;
+	color:#fff;
+}
+
+header h2 {
+	margin-top: -75px;
 }
 
 .summary {
@@ -61,15 +106,18 @@ header {
 
 	width: 100%;
 	padding: 25% 0 25% 0;
+	color: #FFF;
 }
 
 #zen-preamble h3 {
 	text-align: center;
+	background-color: #000;
 }
 
 #zen-preamble p {
 	width: 75%;
 	margin:0 auto 0 auto;
+	background-color: #000;
 }
 /* END PREAMBLE */
 
@@ -100,15 +148,18 @@ header {
 
 	width: 100%;
 	padding: 25% 0 25% 0;
+	color: #fff;
 }
 
 .participation h3 {
 	text-align: center;
+	background-color: #000;
 }
 
 .participation p {
 	width: 75%;
 	margin:0 auto 0 auto;
+	background-color: #000;
 }
 /* END PARTICIPATION */
 
@@ -139,83 +190,58 @@ header {
 
 	width: 100%;
 	padding: 25% 0 25% 0;
+	color: #fff;
 }
 
 .requirements h3 {
 	text-align: center;
+	background-color: #000;
 }
 
 .requirements p {
 	width: 75%;
 	margin:0 auto 0 auto;
+	background-color: #000;
 }
 /* END REQUIRMENTS */
-footer {
-	background-color: #FFF;
-	width:75%;
-	margin: 5% auto 5% auto;
-}
 
-footer h3 {
-	text-align: center;
-}
 
-footer p {
-	margin:0 auto 0 auto;
-}
 /* FOOTER */
-
-
-
-/* END FOOTER */
 footer {
 	margin:0 auto 0 auto;
-	padding: 1%;
+	padding: 5%;
 	text-align: center;
 	width: 50%;
 }
+/* END FOOTER */
+
 /* SIDEBAR */
 .sidebar {
 	width: 100%;
-	margin:1%;
+	margin:0 auto 0 auto;
+	margin-bottom: 300px;
+	text-align: center;
+}
+
+.sidebar h3 {
+
 }
 
 .design-selection {
-	width:30%;
+	width:33.3%;
 	float: left;
 	margin: 0 auto 0 auto;
-	padding: 1%;
-	text-align: center;
 }
 
 .design-archives {
-	width:30%;
+	width:33.3%;
 	float: left;
 	margin:0 auto 0 auto;
-	padding: 1%;
-	text-align: center;
 }
 
 .zen-resources {
-	width: 30%;
+	width: 33.3%;
 	float: left;
 	margin:0 auto 0 auto;
-	padding:1%;
-	text-align: center;
 }
-
-.zen-resources ul {
-	text-decoration: none;
-	display:block;
-}
-
-.zen-resources ul li {
-	text-decoration: none;
-	display: block;
-
-}
-
-
 /* END SIDEBAR */
-
-

@@ -9,7 +9,7 @@ body, html {
 }
 
 #css-zen-garden {
-	
+	background-color: #FFFFFF;
 }
 
 .page-wrapper {
@@ -33,11 +33,13 @@ h3 {
 	font-size: 25px;
 	font-weight: bold;
 	padding: .5%;
+	color: #D1758E;
 }
 
 p {
 	font-size: 14px;
 	padding: .5%;
+	color: #443F45;
 }
 /* END TYPOGRAPHY */
 
@@ -54,21 +56,17 @@ ul li {
 
 a:link {
 	text-decoration: none;
-	color: #F9B7FF;
+	color: #96BBD5;
 	transition: all .5s ease 0;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #E0B0FF;
+	color: #96BBD5
 }
 
 a:hover {
-	text-decoration: none;
-	color: #E6A9EC;
-	background-color: #EBDDE2;
-	padding: 4px;
-	transition: all .5s ease 0;
+	color: #A7536B;
 }
 
 a:active {
@@ -79,24 +77,28 @@ a:active {
 
 /* INTRO */
 header {
-	background: url(img/flower.jpg) no-repeat center center fixed;
+	background:url(img/flower.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-
 	width: 100%;
 	margin-top: -20px;
 	padding: 25% 0 25% 0;
 	text-align: center;
-	color:#fff;
+}
+
+header h1 {
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px #443F45;
 }
 
 header h2 {
 	margin-top: -75px;
+	color: #443F45;
 }
 
 .summary {
-	background-color: #FFF;
+	background-color: #FFFFFF;
 	width:75%;
 	margin: 5% auto 5% auto;
 	text-align: center;
@@ -106,32 +108,32 @@ header h2 {
 
 /* PREAMBLE */
 .preamble {
-	background: url(img/beach.jpg) no-repeat center center fixed;
+	background: url(img/blossoms.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 
 	width: 100%;
 	padding: 25% 0 25% 0;
-	color: #FFF;
+	color: #443F45;
 }
 
 #zen-preamble h3 {
 	text-align: center;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);
 }
 
 #zen-preamble p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);
 }
 /* END PREAMBLE */
 
 
 /* EXPLANATION */
 .explanation {
-	background-color: #FFF;
+	background-color: #FFFFFF;
 	width:75%;
 	margin: 5% auto 5% auto;
 }
@@ -148,32 +150,32 @@ header h2 {
 
 /* PARTICIPATION */
 .participation {
-	background: url(img/tree.jpg) no-repeat center center fixed;
+	background: url(img/japan.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 
 	width: 100%;
 	padding: 25% 0 25% 0;
-	color: #fff;
+	color: #443F45;
 }
 
 .participation h3 {
 	text-align: center;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);;
 }
 
 .participation p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);
 }
 /* END PARTICIPATION */
 
 
 /* BENIFITS */
 .benefits {
-	background-color: #FFF;
+	background-color: #FFFFFF;
 	width:75%;
 	margin: 5% auto 5% auto;
 }
@@ -190,25 +192,25 @@ header h2 {
 
 /* REQUIRMENTS */
 .requirements {
-	background: url(img/ocean.jpg) no-repeat center center fixed;
+	background: url(img/pollination.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 
 	width: 100%;
 	padding: 25% 0 25% 0;
-	color: #fff;
+	color: #443F45;
 }
 
 .requirements h3 {
 	text-align: center;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);
 }
 
 .requirements p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background-color: #000;
+	background:rgba(255, 255, 255, .6);
 }
 /* END REQUIRMENTS */
 
@@ -219,19 +221,13 @@ footer {
 	padding: 2%;
 	text-align: center;
 	width: 50%;
+	word-spacing: 25px;
 }
 /* END FOOTER */
 
 /* SIDEBAR */
 .sidebar {
-	width: 100%;
-	margin:0 auto 0 auto;
-	margin-bottom: 300px;
 	text-align: center;
-}
-
-.sidebar h3 {
-
 }
 
 .design-selection {
